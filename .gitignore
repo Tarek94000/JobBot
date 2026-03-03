@@ -1,0 +1,13 @@
+# Variables d'environnement (tokens, clés API, IDs sensibles)
+.env
+
+# Dépendances Node.js
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
