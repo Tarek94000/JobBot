@@ -33,6 +33,17 @@ If the offer passes, the AI also extracts:
 
 The model responds with a strict JSON object. The bot parses it and discards any offer where `valide: false`.
 
+#### Why Groq?
+
+I chose **Groq** mainly because it offers one of the best **free-tier / low-cost** options to run a strong LLM for this kind of pipeline:
+
+- **Generous free access** (useful when the bot may analyze many offers per day)
+- **Very fast inference** (low latency → the bot can process and post results quickly)
+- **High-quality open models available** (here: `llama-3.3-70b-versatile`)
+- **Simple API + solid Node.js integration** (easy to plug into an automated JSON-only workflow)
+
+This makes Groq a great fit for “high-volume filtering” where you want **reliable structured outputs** without spending money on tokens.
+
 ---
 
 ### 3. 📢 Smart Channel Routing
