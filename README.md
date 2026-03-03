@@ -31,8 +31,6 @@ If the offer passes, the AI also extracts:
 - 🏭 **Business sector** (e.g. Defense, Banking, ESN...)
 - 📋 **Mission summary** — a 2-3 sentence description of typical tasks and tools
 
-<img width="528" height="214" alt="image" src="https://github.com/user-attachments/assets/8bddc43b-85f8-4659-809e-0893faecf5e3" />
-
 The model responds with a strict JSON object. The bot parses it and discards any offer where `valide: false`.
 
 ---
@@ -56,15 +54,7 @@ Every offer is always posted to the **main channel**, and also copied to its spe
 
 Each job post is displayed as a **rich Discord embed** with:
 
-```
-🏢 Entreprise : Thales _(Effectif: 1000+ — Secteur: Défense)_
-⏳ Durée : 2 ans
-🎓 Filière(s) : RS, BDML
-
-📋 Mission
-Mise en place d'une infrastructure cloud sécurisée sur Azure.
-Participation aux audits de sécurité et déploiement des outils de monitoring.
-```
+<img width="528" height="214" alt="image" src="https://github.com/user-attachments/assets/8bddc43b-85f8-4659-809e-0893faecf5e3" />
 
 The card title is a **clickable link** to the original job posting.
 
