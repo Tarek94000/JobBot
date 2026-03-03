@@ -31,6 +31,8 @@ If the offer passes, the AI also extracts:
 - 🏭 **Business sector** (e.g. Defense, Banking, ESN...)
 - 📋 **Mission summary** — a 2-3 sentence description of typical tasks and tools
 
+<img width="528" height="214" alt="image" src="https://github.com/user-attachments/assets/8bddc43b-85f8-4659-809e-0893faecf5e3" />
+
 The model responds with a strict JSON object. The bot parses it and discards any offer where `valide: false`.
 
 ---
